@@ -1,8 +1,53 @@
 body {
-  background: #71BC78;
+  background: #F4F5ED;
   padding-top: 60px;
 }
 
 .jumbotron {
-  margin-top: 20px;
+}
+
+.logo {
+	background: url(../img/heartbreak_logo.png);
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 130px;
+	text-indent: -9999px;
+	overflow: hidden;
+	margin: 0 auto 10px;
+}
+
+.image {
+	max-width="100%"
+}
+
+.center {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.featurette {
+padding-top: 120px;
+overflow: hidden;
+}
+
+.featurette-image.pull-right {
+margin-left: 40px;
+}
+
+.featurette-divider {
+margin: 80px 0;
+}
+
+.footer {
+	margin-top: 60px;
+	margin-bottom:30px;
+}
+
+@media (max-width: 479px){
+.logo {
+	background: url(../img/heartbreak_logo_mobile.png);
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 65px;
+	margin: 0 auto 8px;
 }
